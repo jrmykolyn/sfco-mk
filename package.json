@@ -1,0 +1,19 @@
+{
+  "name": "sfco-mk",
+  "version": "0.0.0",
+  "description": "'sfco-mk' is a command line utility that aims to simplify the process of 'bootstrapping'/'generating' common web dev. configuration and supporting files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmykolyn/sfco-mk.git"
+  },
+  "author": "Jesse R Mykolyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrmykolyn/sfco-mk/issues"
+  },
+  "homepage": "https://github.com/jrmykolyn/sfco-mk#readme"
+}
