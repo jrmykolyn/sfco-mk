@@ -1,3 +1,33 @@
 #! /usr/bin/env node
 
-console.log( '/// TEMP - INSIDE `index.js`' );
+// --------------------------------------------------
+// IMPORT MODULES
+// --------------------------------------------------
+// Project
+const mk = require( './lib/mk' );
+const utils = require( './lib/utils' );
+
+// --------------------------------------------------
+// DECLARE VARS
+// --------------------------------------------------
+const ARGS = process.argv.slice( 2 ).filter( utils.strIsArg ) || [];
+const OPTS = process.argv.slice( 2 ).filter( utils.strIsOpt) || [];
+
+var COMMAND = ARGS[ 0 ];
+var VARIANT = ARGS[ 1 ];
+
+var options = {
+	ARGS,
+	OPTS,
+	COMMAND,
+	VARIANT
+};
+
+// --------------------------------------------------
+// INIT
+// --------------------------------------------------
+mk.init( options )
+	.then(
+		console.log,
+		console.log
+	);
