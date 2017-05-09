@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.2] - 2017-05-09
+### Changed
+- Fixed an issue (introduced in `0.2.1`) which caused `mk` to throw errors when parsing string values within template manifest files.
+
 ## [0.2.1] - 2017-05-09
 ### Changed
 - Updated `git` `_manifest.json` and `.gitignore` files: removed leading '.' in order to prevent file from being converted to `.npmignore` on publish.
