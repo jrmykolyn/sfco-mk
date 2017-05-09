@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.1] - 2017-05-09
+### Changed
+- Updated `git` `_manifest.json` and `.gitignore` files: removed leading '.' in order to prevent file from being converted to `.npmignore` on publish.
+- Updated `lib/mk.js` with additional file read/write logic: program now able to read-in files with *no* leading '.'; add leading '.' at write time.
+
 ## [0.2.0] - 2017-05-08
 ### Added
 - Added support for `git` (`templates/git/`). Running `mk git` now creates a `.gitignore` file in the current directory.
