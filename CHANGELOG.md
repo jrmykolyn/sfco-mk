@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.2.0] - 2017/05/08
+## [0.2.0] - 2017-05-08
 ### Added
 - Added support for `git` (`templates/git/`). Running `mk git` now creates a `.gitignore` file in the current directory.
 - Added support for `editorconfig` (`templates/editorconfig`). Running `mk editorconfig` now created a `.editorconfig` file in the current working directory.
