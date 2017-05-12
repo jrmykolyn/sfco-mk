@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.4.0] - 2017-05-12
+### Added
+- Added support for `changelog` (`templates/changelog`). Running `mk changelog` now creates a `CHANGELOG.md` file in the current working directory.
+- Added support for `readme` (`templates/readme`). Running `mk readme` now creates a `README.md` file in the current working directory.
+
+### Changed
+- Updated `README` file with overview of project, as well as installation, usage, and documenation info.
+
 ## [0.3.0] - 2017-05-10
 ### Added
 - Added support for `npm` (`templates/npm`). Running `mk npm` now creates an `index.js` file in the current working directory.
