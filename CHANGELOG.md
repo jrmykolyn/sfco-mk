@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [0.5.0] - 2017-05-16
 ### Added
 - Added support for `eslint` (`templates/eslint`). Running `mk eslint` now creates an `eslintrc.js` file in the current working directory.
 
