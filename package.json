@@ -1,6 +1,6 @@
 {
   "name": "sfco-mk",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "'sfco-mk' is a command line utility that aims to simplify the process of 'bootstrapping'/'generating' common web dev. configuration and supporting files.",
   "main": "index.js",
   "scripts": {
