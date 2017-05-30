@@ -1,3 +1,13 @@
-node_modules/
-
+# OS
 .DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+
+# Testing
+.nyc_output
+.coveralls.yml
+
+# Misc
+temp/
