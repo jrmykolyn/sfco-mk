@@ -3,7 +3,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [0.6.0] - 2017-06-27
+### Added
+- Added support for `outFile` option. When present, option overrides the default name of the template being created (eg. `--outFile=NEW_NAME.txt`).
+
+### Changed
+- Updated 'default' `README.md` file to include additional notes re: missing documentation.
+- Updated 'default' `.gitignore` file with additional exclusions and notes.
+- Updated 'default' `.gulpfile.js` file with initial imports and tasks.
 
 ## [0.5.0] - 2017-05-16
 ### Added
