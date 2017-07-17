@@ -6,7 +6,7 @@
 - [Setup](#setup)
 - [Usage](#usage)
 	- [Creating Templates](#creating-templates)
-	- [Supporting Commands](#supporting commands)
+	- [Supporting Commands](#supporting-commands)
 - [Documentation](#documentation)
 
 ## About
