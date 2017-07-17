@@ -5,6 +5,7 @@
 // --------------------------------------------------
 // Project
 const mk = require( './lib/mk' );
+const commands = require( `./lib/commands` );
 const utils = require( './lib/utils' );
 
 // --------------------------------------------------
@@ -26,8 +27,14 @@ var options = {
 // --------------------------------------------------
 // INIT
 // --------------------------------------------------
-mk.init( options )
-	.then(
-		console.log,
-		console.log
-	);
+// If `COMMAND` is present in `commands` object, invoke it.
+// Otherwise, invoke `mk.init( ... )` as normal.
+if ( COMMAND in commands ) {
+	commands.list();
+} else {
+	mk.init( options )
+		.then(
+			console.log,
+			console.log
+		);
+}
