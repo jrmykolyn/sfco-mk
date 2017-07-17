@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+##[0.7.0] - 2017-07-17
+### Added
+- Added support for `list` command. Running `mk list` now displays a list of all supported templates and template variants.
+
+### Changed
+- Removed case sensitivity for `{ SUBCOMMAND }`. Each of the following commands are now valid: `mk README`, `mk readme`, and `mk rEaDmE`.
+- Added `.*.yml`-specific rules to default `.editorconfig` template.
+- Added table of contents to `README` template file(s).
+- Updated project `README.md` file with: new usage instructions; table of contents.
+
 ## [0.6.0] - 2017-06-27
 ### Added
 - Added support for `outFile` option. When present, option overrides the default name of the template being created (eg. `--outFile=NEW_NAME.txt`).
